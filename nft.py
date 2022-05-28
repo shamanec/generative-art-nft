@@ -180,7 +180,8 @@ def generate_images(edition, count, drop_dup=True):
                 rarity_table[CONFIG[idx]['name']].append('none')
     
     # Create the final rarity table by removing duplicate creat
-    rarity_table = pd.DataFrame(rarity_table).drop_duplicates()
+    # rarity_table = pd.DataFrame(rarity_table).drop_duplicates()
+    rarity_table = pd.DataFrame(rarity_table).drop_duplicates(subset=['clothes', 'hair', 'glasses'])
     print("Generated %i images, %i are distinct" % (count, rarity_table.shape[0]))
     
     if drop_dup:
