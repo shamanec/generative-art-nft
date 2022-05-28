@@ -99,7 +99,8 @@ def get_total_combinations():
     
     total = 1
     for layer in CONFIG:
-        total = total * len(layer['traits'])
+        if layer["name"] != "background":
+            total = total * len(layer['traits'])
     return total
 
 
