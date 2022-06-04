@@ -144,8 +144,9 @@ CONFIG = [
         'id': 5,
         'name': 'headwear',
         'directory': 'Headwear',
-        'required': True,
+        'required': False,
         'rarity_weights': [
+            100,
             80,
             100,
             100,
