@@ -72,7 +72,8 @@ def generate_single_image(filepaths, output_filename=None):
         if filepath.endswith('.png'):
             img = Image.open(os.path.join('assets', filepath))
             bg.paste(img, (0,0), img)
-    
+    newsize = (1754, 2481)
+    bg = bg.resize(newsize)
     # Save the final image into desired location
     if output_filename is not None:
         bg.save(output_filename)
