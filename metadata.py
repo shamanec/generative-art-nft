@@ -77,7 +77,10 @@ def main():
             print("Oops! Looks like this edition doesn't exist! Check your output folder to see what editions exist.")
             print("Enter edition you want to generate metadata for: ")
             continue
-    
+
+    print("Enter a description for the images - empty or text: ")
+    description = input()
+
     # Make json folder
     if not os.path.exists(json_path):
         os.makedirs(json_path)
@@ -91,10 +94,14 @@ def main():
         item_json = deepcopy(BASE_JSON)
         
         # Append number to base name
-        item_json['name'] = item_json['name'] + str(idx)
+        #item_json['name'] = item_json['name'] + str(idx)
+        item_json['name'] = 'BitChick #' + str(idx)
 
         # Append image PNG file name to base image path
-        item_json['image'] = item_json['image'] + '/' + str(idx).zfill(zfill_count) + '.png'
+        # item_json['image'] = item_json['image'] + '/' + str(idx).zfill(zfill_count) + '.png'
+        item_json['image'] = ''
+
+        item_json['description'] = description
         
         # Convert pandas series to dictionary
         attr_dict = dict(row)
@@ -106,9 +113,9 @@ def main():
                 item_json['attributes'].append({ 'trait_type': attr, 'value': attr_dict[attr] })
         
         # Write file to json folder
-        item_json_path = os.path.join(json_path, str(idx))
+        item_json_path = os.path.join(json_path, str(idx) + '.json')
         with open(item_json_path, 'w') as f:
-            json.dump(item_json, f)
+            json.dump(item_json, f, indent=4)
 
 # Run the main function
 main()

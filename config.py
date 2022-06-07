@@ -27,48 +27,48 @@ CONFIG = [
         'directory': 'Background',
         'required': True,
         'rarity_weights': [
-            100,
-            5,
-            50,
-            100,
-            15,
-            100,
-            100,
-            80,
-            50,
-            100,
-            100,
-            100,
-            100,
-            100,
-            30,
-            15,
-            100,
-            100,
-            1,
-            5,
-            70,
-            100,
-            100,
-            25,
-            10,
-            1,
-            5,
-            80,
-            100,
-            75,
-            20,
-            100,
-            100,
-            15,
-            15,
-            1,
-            100,
-            5,
-            15,
-            10,
-            100,
-            100
+            50, # Abstract Blue
+            50, # Abstract Cirtle
+            25, # Abstract Green
+            50, # Abstract Magenta
+            50, # Abstract Mint
+            50, # Abstract Pink
+            80, # Blue Cubes
+            80, # Blue Green Cubes
+            35, # Blue Lights
+            80, # Blue Purple Cubes
+            50, # Blue Virtual Coins
+            50, # Blue Watercolor
+            25, # Cold Green Cubes
+            10, # Colourful Abstract Circle
+            5, # Colourful drops
+            5, # Colorful Stripes
+            1, # Copper Tint Cubes
+            35, # Forest Drops
+            1, # Golden Cubes
+            1, # Golden Lines
+            50, # Green Lights
+            35, # Light Green Cubes
+            50, # Magenta Cubes
+            25, # Midnight Light
+            65, # Mint Lights
+            5, # Mint Lines
+            1, # Monochrome Cubes
+            50, # Monochrome Drops
+            50, # Orange Cubes
+            35, # Orange Pink Cubes
+            15, # Orange Yellow Cubes
+            50, # Pink Abstract Circle
+            65, # Pink Cubes
+            25, # Purple Blue Cubes
+            10, # Purple Lights
+            5, # Purple Lines
+            35, # Purple Pink Cubes
+            15, # Rainbow Stripes
+            35, # Sunrise Virtual Coins
+            5, # Tint Cubes
+            35, # Virtual Coins
+            50 # Warm Green Cubes
         ],
     },
     {
@@ -84,51 +84,51 @@ CONFIG = [
         'directory': 'Clothes',
         'required': True,
         'rarity_weights': [
-            80,
-            100,
-            100,
-            100,
-            100,
-            100,
-            100,
-            100,
-            100,
-            25,
-            100,
-            50,
-            1,
-            1,
-            25,
-            50,
-            20,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            15,
-            1,
-            50,
-            25,
-            50,
-            25,
-            25,
-            80,
-            80,
-            80,
-            80,
-            80,
-            5,
-            5,
-            5,
-            10,
-            10,
-            5,
-            1,
-            5
+            25, # Black Red Suit
+            50, # Blue Asymmetric Majesty
+            80, # Blue Cool Lines
+            80, # Blue Fantasy
+            65, # Blue Hemp
+            75, # Blue Jacket
+            35, # Blue Leather Badass
+            75, # Blue Majesty
+            75, # Blue Necklace
+            15, # Blue Red Space Suit
+            75, # Blue Triangle Straps
+            50, # Brown Fantasy
+            1, # Fire Soundwave
+            5, # Golden Asymmetric Majesty
+            1, # Golden Leather Badass
+            65, # Green Action Hand Pocket
+            15, # Green Action
+            15, # Green Asymmetric Majesty
+            80, # Green Cool Lines
+            80, # Green Fantasy
+            25, # Green Gothich Triangle
+            50, # Green Hemp
+            50, # Green Jacket
+            50, # Green Majesty
+            35, # Green Necklace
+            5, # Green Pink Space Suit
+            1, # Green Purple Space Suit
+            15, # Green Soundwave
+            35, # Green Suit
+            50, # Green Triangle Straps
+            5, # Mint Action
+            25, # Mint Hemp
+            25, # Pink Leather Badass
+            35, # Pink Action Hand Pocket
+            50, # Pink Action
+            45, # Pink Asymmetric Majesty
+            65, # Pink Majesty
+            25, # Purple Action Hand Pocket
+            25, # Purple Cool Lines
+            10, # Purple Gothic Triangle
+            5, # Purple Green Suit
+            35, # Purple Jacket
+            35, # Purple Necklace
+            5, # Purple Soundwave
+            10 # Purple Triangle Straps
         ],
     },
     {
@@ -137,50 +137,50 @@ CONFIG = [
         'directory': 'Hair',
         'required': True,
         'rarity_weights': [
-            100,
-            50,
-            100,
-            80,
-            15,
-            80,
-            50,
-            80,
-            75,
-            75,
-            80,
-            5,
-            75,
-            100,
-            25,
-            100,
-            5,
-            1,
-            80,
-            25,
-            15,
-            5,
-            1,
-            1,
-            100,
-            100,
-            100,
-            75,
-            100,
-            100,
-            1,
-            10,
-            5,
-            15,
-            15,
-            100,
-            100,
-            100,
-            100,
-            1,
-            10,
-            1,
-            5,
-            25
+            100, # Blond Buns
+            100, # Blond Short
+            100, # Blondy Asymmetric
+            100, # Blondy Bun
+            50, # Blue Braid
+            80, # Blue Bun
+            80, # Blue Hat
+            70, # Blue Hippie
+            100, # Brunette Bun
+            80, # Brunette Buns
+            100, # Dark Blond Hippie
+            15, # Dark Blue Electric
+            80, # Ginger Asymmetric
+            50, # Ginger Braid
+            80, # Gold Brown Asymmetric
+            35, # Golden Bob
+            70, # Golden Brown Shine
+            10, # Golden Aerial
+            70, # Green Bob
+            70, # Light Blond Hippie
+            35, # Magenta Buns
+            10, # Mint Buns
+            15, # Mint Hat
+            1, # Monochrome Electric
+            70, # Orange Short
+            50, # Pink Aerial
+            50, # Pink Braid
+            50, # Pink Hat
+            70, # Pink Hippie
+            70, # Pink Short
+            1, # Postmodern Monochrome White
+            15, # Postmodern Pink White
+            5, # Postmodern Purple White
+            25, # Purple Aerial
+            35, # Purple Asymmetric
+            35, # Purple Bangs Tail
+            60, # Purple Blue Hippie
+            60, # Purple Bob
+            70, # Purple Hippie
+            60, # Purpl Shine
+            5, # Sky Blue Electric
+            15, # Sunrise Bangs Tail
+            15, # Sunset Bangs Tail
+            10 # Tint Shine
         ],
     },
     {
@@ -189,49 +189,49 @@ CONFIG = [
         'directory': 'Headwear',
         'required': False,
         'rarity_weights': [
-            20,
-            80,
-            100,
-            100,
-            100,
-            80,
-            100,
-            15,
-            5,
-            50,
-            50,
-            75,
-            50,
-            50,
-            70,
-            50,
-            100,
-            15,
-            15,
-            5,
-            5,
-            70,
-            80,
-            80,
-            80,
-            40,
-            40,
-            80,
-            80,
-            25,
-            25,
-            35,
-            35,
-            35,
-            5,
-            5,
-            2,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
+            100, # None
+            80, # Blue Cirle AI Vision
+            80, # Blue Cyberpunk Mechanic
+            80, # Blue Light Triangles
+            50, # Blue Line
+            50, # Blue Mechanical
+            80, # Blue Smart Assistant
+            80, # Copper Mechanical
+            1, # Golden Mechanical
+            65, # Green Crosshair Crypto
+            65, # Green Cyberpunk Mechanic
+            65, # Green Light Triangles
+            25, # Green Line
+            50, # Green Ride Smart
+            50, # Green Smart Assistant
+            65, # Green Smart Cryptochecker
+            45, # Magenta Circle AI Vision
+            15, # Mint Circle AI Vision
+            10, # Mint Crosshair Crypto
+            5, # Mint Ride Smart
+            1, # Mint Smart Cryptochecker
+            35, # Orange Smart Assistant
+            50, # Pink Circle AI Vision
+            65, # Pink Crosshair Crypto
+            65, # Pink Light Triangles
+            25, # Pink Line
+            50, # Pink Ride Smart
+            50, # Pink Smart Assistant
+            50, # Pink Smart Cryptochecker
+            15, # Purple Circle AI Vision
+            25, # Purple Crosshair Crypto
+            35, # Purple Cyberpunk Mechanic
+            35, # Purple Light Triangles
+            15, # Purple Mechanical
+            15, # Purple Smart Assistant
+            25, # Purple Smart Cryptochecker
+            15, # Silver Mechanical
+            5, # Yellow Crosshair Crypto
+            1, # Yellow Cyberpunk Mechanic
+            15, # Yellow Light Triangles
+            5, # Yellow Line
+            15, # Yellow Ride Smart
+            25 # Yellow Smart Cryptochecker
         ],
     },
 ]
