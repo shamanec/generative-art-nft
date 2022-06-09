@@ -43,17 +43,17 @@ CONFIG = [
             10, # Colourful Abstract Circle
             5, # Colourful drops
             5, # Colorful Stripes
-            1, # Copper Tint Cubes
+            2, # Copper Tint Cubes
             35, # Forest Drops
-            1, # Golden Cubes
-            1, # Golden Lines
+            2, # Golden Cubes
+            2, # Golden Lines
             50, # Green Lights
             35, # Light Green Cubes
             50, # Magenta Cubes
             25, # Midnight Light
             65, # Mint Lights
             5, # Mint Lines
-            1, # Monochrome Cubes
+            2, # Monochrome Cubes
             50, # Monochrome Drops
             50, # Orange Cubes
             35, # Orange Pink Cubes
@@ -96,9 +96,9 @@ CONFIG = [
             15, # Blue Red Space Suit
             75, # Blue Triangle Straps
             50, # Brown Fantasy
-            1, # Fire Soundwave
+            2, # Fire Soundwave
             5, # Golden Asymmetric Majesty
-            1, # Golden Leather Badass
+            2, # Golden Leather Badass
             65, # Green Action Hand Pocket
             15, # Green Action
             15, # Green Asymmetric Majesty
@@ -110,7 +110,7 @@ CONFIG = [
             50, # Green Majesty
             35, # Green Necklace
             5, # Green Pink Space Suit
-            1, # Green Purple Space Suit
+            2, # Green Purple Space Suit
             15, # Green Soundwave
             35, # Green Suit
             50, # Green Triangle Straps
@@ -160,14 +160,14 @@ CONFIG = [
             35, # Magenta Buns
             10, # Mint Buns
             15, # Mint Hat
-            1, # Monochrome Electric
+            2, # Monochrome Electric
             70, # Orange Short
             50, # Pink Aerial
             50, # Pink Braid
             50, # Pink Hat
             70, # Pink Hippie
             70, # Pink Short
-            1, # Postmodern Monochrome White
+            2, # Postmodern Monochrome White
             15, # Postmodern Pink White
             5, # Postmodern Purple White
             25, # Purple Aerial
@@ -190,44 +190,44 @@ CONFIG = [
         'required': False,
         'rarity_weights': [
             100, # None
-            80, # Blue Cirle AI Vision
-            80, # Blue Cyberpunk Mechanic
-            80, # Blue Light Triangles
-            50, # Blue Line
+            70, # Blue Cirle AI Vision
+            70, # Blue Cyberpunk Mechanic
+            70, # Blue Light Triangles
+            70, # Blue Line
             50, # Blue Mechanical
-            80, # Blue Smart Assistant
-            80, # Copper Mechanical
-            1, # Golden Mechanical
-            65, # Green Crosshair Crypto
-            65, # Green Cyberpunk Mechanic
-            65, # Green Light Triangles
+            70, # Blue Smart Assistant
+            70, # Copper Mechanical
+            2, # Golden Mechanical
+            60, # Green Crosshair Crypto
+            60, # Green Cyberpunk Mechanic
+            60, # Green Light Triangles
             25, # Green Line
-            50, # Green Ride Smart
-            50, # Green Smart Assistant
-            65, # Green Smart Cryptochecker
+            60, # Green Ride Smart
+            60, # Green Smart Assistant
+            60, # Green Smart Cryptochecker
             45, # Magenta Circle AI Vision
             15, # Mint Circle AI Vision
             10, # Mint Crosshair Crypto
             5, # Mint Ride Smart
-            1, # Mint Smart Cryptochecker
+            2, # Mint Smart Cryptochecker
             35, # Orange Smart Assistant
             50, # Pink Circle AI Vision
-            65, # Pink Crosshair Crypto
-            65, # Pink Light Triangles
-            25, # Pink Line
+            60, # Pink Crosshair Crypto
+            60, # Pink Light Triangles
+            60, # Pink Line
             50, # Pink Ride Smart
             50, # Pink Smart Assistant
             50, # Pink Smart Cryptochecker
             15, # Purple Circle AI Vision
             25, # Purple Crosshair Crypto
             35, # Purple Cyberpunk Mechanic
-            35, # Purple Light Triangles
+            25, # Purple Light Triangles
             15, # Purple Mechanical
             15, # Purple Smart Assistant
             25, # Purple Smart Cryptochecker
             15, # Silver Mechanical
             5, # Yellow Crosshair Crypto
-            1, # Yellow Cyberpunk Mechanic
+            2, # Yellow Cyberpunk Mechanic
             15, # Yellow Light Triangles
             5, # Yellow Line
             15, # Yellow Ride Smart
