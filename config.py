@@ -27,18 +27,18 @@ CONFIG = [
         'directory': 'Background',
         'required': True,
         'rarity_weights': [
-            50, # Abstract Blue
+            80, # Abstract Blue
             50, # Abstract Cirtle
             25, # Abstract Green
-            50, # Abstract Magenta
-            50, # Abstract Mint
+            80, # Abstract Magenta
+            55, # Abstract Mint
             50, # Abstract Pink
-            80, # Blue Cubes
-            80, # Blue Green Cubes
+            100, # Blue Cubes
+            100, # Blue Green Cubes
             35, # Blue Lights
-            80, # Blue Purple Cubes
-            50, # Blue Virtual Coins
-            50, # Blue Watercolor
+            100, # Blue Purple Cubes
+            65, # Blue Virtual Coins
+            65, # Blue Watercolor
             25, # Cold Green Cubes
             10, # Colourful Abstract Circle
             5, # Colourful drops
@@ -48,14 +48,14 @@ CONFIG = [
             2, # Golden Cubes
             2, # Golden Lines
             50, # Green Lights
-            35, # Light Green Cubes
+            30, # Light Green Cubes
             50, # Magenta Cubes
             25, # Midnight Light
             65, # Mint Lights
             5, # Mint Lines
             2, # Monochrome Cubes
-            50, # Monochrome Drops
-            50, # Orange Cubes
+            40, # Monochrome Drops
+            65, # Orange Cubes
             35, # Orange Pink Cubes
             15, # Orange Yellow Cubes
             50, # Pink Abstract Circle
@@ -68,7 +68,7 @@ CONFIG = [
             35, # Sunrise Virtual Coins
             5, # Tint Cubes
             35, # Virtual Coins
-            50 # Warm Green Cubes
+            45 # Warm Green Cubes
         ],
     },
     {
@@ -86,14 +86,14 @@ CONFIG = [
         'rarity_weights': [
             25, # Black Red Suit
             50, # Blue Asymmetric Majesty
-            80, # Blue Cool Lines
-            80, # Blue Fantasy
+            100, # Blue Cool Lines
+            100, # Blue Fantasy
             65, # Blue Hemp
-            75, # Blue Jacket
+            80, # Blue Jacket
             35, # Blue Leather Badass
-            75, # Blue Majesty
+            80, # Blue Majesty
             75, # Blue Necklace
-            15, # Blue Red Space Suit
+            10, # Blue Red Space Suit
             75, # Blue Triangle Straps
             50, # Brown Fantasy
             2, # Fire Soundwave
@@ -102,10 +102,10 @@ CONFIG = [
             65, # Green Action Hand Pocket
             15, # Green Action
             15, # Green Asymmetric Majesty
-            80, # Green Cool Lines
-            80, # Green Fantasy
+            100, # Green Cool Lines
+            100, # Green Fantasy
             25, # Green Gothich Triangle
-            50, # Green Hemp
+            45, # Green Hemp
             50, # Green Jacket
             50, # Green Majesty
             35, # Green Necklace
@@ -115,13 +115,13 @@ CONFIG = [
             35, # Green Suit
             50, # Green Triangle Straps
             5, # Mint Action
-            25, # Mint Hemp
+            15, # Mint Hemp
             25, # Pink Leather Badass
             35, # Pink Action Hand Pocket
             50, # Pink Action
             45, # Pink Asymmetric Majesty
             65, # Pink Majesty
-            25, # Purple Action Hand Pocket
+            20, # Purple Action Hand Pocket
             25, # Purple Cool Lines
             10, # Purple Gothic Triangle
             5, # Purple Green Suit
@@ -199,12 +199,12 @@ CONFIG = [
             70, # Copper Mechanical
             2, # Golden Mechanical
             60, # Green Crosshair Crypto
-            60, # Green Cyberpunk Mechanic
-            60, # Green Light Triangles
+            55, # Green Cyberpunk Mechanic
+            50, # Green Light Triangles
             25, # Green Line
             60, # Green Ride Smart
-            60, # Green Smart Assistant
-            60, # Green Smart Cryptochecker
+            55, # Green Smart Assistant
+            50, # Green Smart Cryptochecker
             45, # Magenta Circle AI Vision
             15, # Mint Circle AI Vision
             10, # Mint Crosshair Crypto
@@ -214,7 +214,7 @@ CONFIG = [
             50, # Pink Circle AI Vision
             60, # Pink Crosshair Crypto
             60, # Pink Light Triangles
-            60, # Pink Line
+            20, # Pink Line
             50, # Pink Ride Smart
             50, # Pink Smart Assistant
             50, # Pink Smart Cryptochecker
@@ -223,7 +223,7 @@ CONFIG = [
             35, # Purple Cyberpunk Mechanic
             25, # Purple Light Triangles
             15, # Purple Mechanical
-            15, # Purple Smart Assistant
+            10, # Purple Smart Assistant
             25, # Purple Smart Cryptochecker
             15, # Silver Mechanical
             5, # Yellow Crosshair Crypto
