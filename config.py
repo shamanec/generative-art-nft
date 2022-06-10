@@ -29,7 +29,7 @@ CONFIG = [
         'rarity_weights': [
             80, # Abstract Blue
             50, # Abstract Cirtle
-            25, # Abstract Green
+            30, # Abstract Green
             80, # Abstract Magenta
             55, # Abstract Mint
             50, # Abstract Pink
@@ -38,7 +38,7 @@ CONFIG = [
             35, # Blue Lights
             100, # Blue Purple Cubes
             65, # Blue Virtual Coins
-            65, # Blue Watercolor
+            20, # Blue Watercolor
             25, # Cold Green Cubes
             10, # Colourful Abstract Circle
             5, # Colourful drops
@@ -46,11 +46,11 @@ CONFIG = [
             2, # Copper Tint Cubes
             35, # Forest Drops
             2, # Golden Cubes
-            2, # Golden Lines
+            5, # Golden Lines
             50, # Green Lights
             30, # Light Green Cubes
             50, # Magenta Cubes
-            25, # Midnight Light
+            20, # Midnight Light
             65, # Mint Lights
             5, # Mint Lines
             2, # Monochrome Cubes
@@ -66,7 +66,7 @@ CONFIG = [
             35, # Purple Pink Cubes
             15, # Rainbow Stripes
             35, # Sunrise Virtual Coins
-            5, # Tint Cubes
+            3, # Tint Cubes
             35, # Virtual Coins
             45 # Warm Green Cubes
         ],
@@ -98,28 +98,28 @@ CONFIG = [
             50, # Brown Fantasy
             2, # Fire Soundwave
             5, # Golden Asymmetric Majesty
-            2, # Golden Leather Badass
+            3, # Golden Leather Badass
             65, # Green Action Hand Pocket
             15, # Green Action
-            15, # Green Asymmetric Majesty
+            20, # Green Asymmetric Majesty
             100, # Green Cool Lines
             100, # Green Fantasy
             25, # Green Gothich Triangle
             45, # Green Hemp
-            50, # Green Jacket
-            50, # Green Majesty
+            55, # Green Jacket
+            45, # Green Majesty
             35, # Green Necklace
             5, # Green Pink Space Suit
             2, # Green Purple Space Suit
-            15, # Green Soundwave
+            10, # Green Soundwave
             35, # Green Suit
             50, # Green Triangle Straps
             5, # Mint Action
             15, # Mint Hemp
-            25, # Pink Leather Badass
             35, # Pink Action Hand Pocket
             50, # Pink Action
-            45, # Pink Asymmetric Majesty
+            40, # Pink Asymmetric Majesty
+            25, # Pink Leather Badass
             65, # Pink Majesty
             20, # Purple Action Hand Pocket
             25, # Purple Cool Lines
@@ -127,7 +127,7 @@ CONFIG = [
             5, # Purple Green Suit
             35, # Purple Jacket
             35, # Purple Necklace
-            5, # Purple Soundwave
+            3, # Purple Soundwave
             10 # Purple Triangle Straps
         ],
     },
@@ -147,7 +147,7 @@ CONFIG = [
             70, # Blue Hippie
             100, # Brunette Bun
             80, # Brunette Buns
-            100, # Dark Blond Hippie
+            85, # Dark Blond Hippie
             15, # Dark Blue Electric
             80, # Ginger Asymmetric
             50, # Ginger Braid
@@ -155,30 +155,30 @@ CONFIG = [
             10, # Golden Aerial
             35, # Golden Bob
             70, # Golden Brown Shine
-            70, # Green Bob
-            70, # Light Blond Hippie
-            35, # Magenta Buns
-            10, # Mint Buns
+            65, # Green Bob
+            65, # Light Blond Hippie
+            10, # Magenta Buns
+            5, # Mint Buns
             15, # Mint Hat
             2, # Monochrome Electric
             70, # Orange Short
-            50, # Pink Aerial
-            50, # Pink Braid
+            40, # Pink Aerial
+            25, # Pink Braid
             50, # Pink Hat
-            70, # Pink Hippie
+            60, # Pink Hippie
             70, # Pink Short
             2, # Postmodern Monochrome White
-            15, # Postmodern Pink White
+            10, # Postmodern Pink White
             5, # Postmodern Purple White
-            25, # Purple Aerial
+            20, # Purple Aerial
             35, # Purple Asymmetric
-            35, # Purple Bangs Tail
-            60, # Purple Blue Hippie
-            60, # Purple Bob
-            70, # Purple Hippie
-            60, # Purpl Shine
+            15, # Purple Bangs Tail
+            45, # Purple Blue Hippie
+            45, # Purple Bob
+            50, # Purple Hippie
+            55, # Purpl Shine
             5, # Sky Blue Electric
-            15, # Sunrise Bangs Tail
+            5, # Sunrise Bangs Tail
             15, # Sunset Bangs Tail
             10 # Tint Shine
         ],
@@ -192,43 +192,43 @@ CONFIG = [
             100, # None
             70, # Blue Cirle AI Vision
             70, # Blue Cyberpunk Mechanic
-            70, # Blue Light Triangles
+            40, # Blue Light Triangles
             70, # Blue Line
             50, # Blue Mechanical
             70, # Blue Smart Assistant
             70, # Copper Mechanical
             2, # Golden Mechanical
-            60, # Green Crosshair Crypto
+            70, # Green Crosshair Crypto
             55, # Green Cyberpunk Mechanic
-            50, # Green Light Triangles
-            25, # Green Line
+            25, # Green Light Triangles
+            40, # Green Line
             60, # Green Ride Smart
-            55, # Green Smart Assistant
-            50, # Green Smart Cryptochecker
+            60, # Green Smart Assistant
+            60, # Green Smart Cryptochecker
             45, # Magenta Circle AI Vision
-            15, # Mint Circle AI Vision
+            25, # Mint Circle AI Vision
             10, # Mint Crosshair Crypto
             5, # Mint Ride Smart
             2, # Mint Smart Cryptochecker
-            35, # Orange Smart Assistant
+            40, # Orange Smart Assistant
             50, # Pink Circle AI Vision
             60, # Pink Crosshair Crypto
-            60, # Pink Light Triangles
+            10, # Pink Light Triangles
             20, # Pink Line
             50, # Pink Ride Smart
-            50, # Pink Smart Assistant
+            40, # Pink Smart Assistant
             50, # Pink Smart Cryptochecker
             15, # Purple Circle AI Vision
             25, # Purple Crosshair Crypto
             35, # Purple Cyberpunk Mechanic
-            25, # Purple Light Triangles
-            15, # Purple Mechanical
-            10, # Purple Smart Assistant
+            15, # Purple Light Triangles
+            10, # Purple Mechanical
+            8, # Purple Smart Assistant
             25, # Purple Smart Cryptochecker
-            15, # Silver Mechanical
+            12, # Silver Mechanical
             5, # Yellow Crosshair Crypto
             2, # Yellow Cyberpunk Mechanic
-            15, # Yellow Light Triangles
+            35, # Yellow Light Triangles
             5, # Yellow Line
             15, # Yellow Ride Smart
             25 # Yellow Smart Cryptochecker

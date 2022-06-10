@@ -157,10 +157,8 @@ def generate_dna(trait_sets):
 
 def dna_unique(current_dna):
     if current_dna in dna_list:
-        print("\nis not unique")
         return False
     else:
-        print("\nis unique. Appended.")
         dna_list.append(current_dna)
         return True
 
@@ -183,10 +181,13 @@ def generate_images(edition, count, drop_dup=True):
         os.makedirs(op_path)
       
     # Create the images
-    for n in progressbar(range(count)):
-        
+    image_index = 0
+    #for n in progressbar(range(count)):
+    while image_index < count:
+        print("image index is:")
+        print(image_index)
         # Set image name
-        image_name = str(n) + '.png'
+        image_name = str(image_index) + '.png'
         
         # Get a random set of valid traits based on rarity weights
         trait_sets, trait_paths = generate_trait_set_from_config()
@@ -205,10 +206,15 @@ def generate_images(edition, count, drop_dup=True):
                 rarity_table[CONFIG[idx]['name']].append(trait[: -1 * len('.png')])
             else:
                 rarity_table[CONFIG[idx]['name']].append('none')
+
+        image_index += 1
+        print("increased index")
     
+    print("reached rarity table drop duplicates")
     # Create the final rarity table by removing duplicate creat
     # rarity_table = pd.DataFrame(rarity_table).drop_duplicates()
     rarity_table = pd.DataFrame(rarity_table).drop_duplicates(subset=['clothes', 'hair', 'headwear'])
+
     print("Generated %i images, %i are distinct" % (count, rarity_table.shape[0]))
     
     if drop_dup:
@@ -248,7 +254,11 @@ def main():
     while True:
         num_avatars = int(input())
         if num_avatars > 0:
-            break
+            if num_avatars > tot_comb:
+             print("Please input less thatn total number possible")
+            else:
+                break
+        
     
     print("What would you like to call this edition?: ")
     edition_name = input()
