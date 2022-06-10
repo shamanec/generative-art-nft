@@ -152,9 +152,9 @@ CONFIG = [
             80, # Ginger Asymmetric
             50, # Ginger Braid
             80, # Gold Brown Asymmetric
+            10, # Golden Aerial
             35, # Golden Bob
             70, # Golden Brown Shine
-            10, # Golden Aerial
             70, # Green Bob
             70, # Light Blond Hippie
             35, # Magenta Buns

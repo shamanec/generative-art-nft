@@ -9,6 +9,7 @@ import time
 import os
 import random
 from progressbar import progressbar
+import base64
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -17,7 +18,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 # Import configuration file
 from config import CONFIG
 
-
+dna_list = []
 # Parse the configuration file and make sure it's valid
 def parse_config():
     
@@ -143,6 +144,25 @@ def generate_trait_set_from_config():
         
     return trait_set, trait_paths
 
+def generate_dna(trait_sets):
+    current_dna = []
+    for index, trait in enumerate(trait_sets):
+        if index > 1:
+            if trait is None:
+                current_dna.append("None")
+            else:
+                current_dna.append(trait)
+    
+    return current_dna
+
+def dna_unique(current_dna):
+    if current_dna in dna_list:
+        print("\nis not unique")
+        return False
+    else:
+        print("\nis unique. Appended.")
+        dna_list.append(current_dna)
+        return True
 
 # Generate the image set. Don't change drop_dup
 def generate_images(edition, count, drop_dup=True):
@@ -170,6 +190,11 @@ def generate_images(edition, count, drop_dup=True):
         
         # Get a random set of valid traits based on rarity weights
         trait_sets, trait_paths = generate_trait_set_from_config()
+
+        current_dna = generate_dna(trait_sets)
+
+        if not dna_unique(current_dna):
+            continue
 
         # Generate the actual image
         generate_single_image(trait_paths, os.path.join(op_path, image_name))
